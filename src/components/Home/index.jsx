@@ -12,8 +12,13 @@ const Home = () => {
     <div className="cantainer home-page">
       <div className="text-zone">
         <h1>
-          Hi, <br />I'm
+          <span className={letterClass}>H</span>
+          <span className={`${letterClass} _12`}>i,</span>
+          <br />
+          <span className={`${letterClass} _12`}>I</span>
+          <span className={`${letterClass} _12`}>'m</span>
           <img src={LogoTitle} alt="developer" />
+          
           <AnimatedLetters letterClass={letterClass}
           strArray={nameArray}
           idx={15}/>
