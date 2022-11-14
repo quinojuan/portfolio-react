@@ -23,13 +23,16 @@ const Home = () => {
     'r',
     '.',
   ]
-/* este useEffect lo tuve que sacar porque sino me compilaba pero no funcionaba*/
-  // useEffect(() => {
-  //   return setTimeout(() => {
-  //     setLetterClass('text-animate-hover')
-  //   }, 4000)
-  // }, [])
-  
+
+  let funcionAuxiliar = () =>
+    setTimeout(() => {
+      setLetterClass('text-animate-hover')
+    }, 4000)
+
+  useEffect(() => {
+    funcionAuxiliar()
+  }, [])
+
   return (
     <div className="cantainer home-page">
       <div className="text-zone">
