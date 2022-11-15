@@ -32,7 +32,7 @@ const Contact = () => {
             beatae fugiat.
           </p>
           <div className="contact-form">
-            <form action="">
+            <form>
               <ul>
                 <li className="half">
                   <input type="text" name="name" placeholder="Name" required />
