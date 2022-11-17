@@ -1,10 +1,13 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useState, useRef } from 'react'
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
+import emailjs from '@emailjs/browser'
+import { MapContainer, Marker, Popup, TileLayer } from 'react-leaflet'
 
 const Contact = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
+  const refForm = useRef()
 
   let funcionAuxiliar = () =>
     setTimeout(() => {
@@ -14,6 +17,28 @@ const Contact = () => {
   useEffect(() => {
     funcionAuxiliar()
   }, [])
+
+  const sendEmail = (e) => {
+    e.preventDefault()
+
+    emailjs
+      .sendForm(
+        'service_0l541pm',
+        'template_pjno36a',
+        refForm.current,
+        'OqLPBjtMYfx4yul-S'
+      )
+      .then(
+        () => {
+          alert('Message successfully sent!')
+          window.location.reload(false)
+        },
+        () => {
+          alert('Failed to send the message, please try again!')
+        }
+      )
+  }
+
   return (
     <>
       <div className="container contact-page">
@@ -32,7 +57,7 @@ const Contact = () => {
             beatae fugiat.
           </p>
           <div className="contact-form">
-            <form>
+            <form ref={refForm} onSubmit={sendEmail}>
               <ul>
                 <li className="half">
                   <input type="text" name="name" placeholder="Name" required />
@@ -66,6 +91,22 @@ const Contact = () => {
               </ul>
             </form>
           </div>
+        </div>
+        <div className="info-map">
+          Juan Quino,
+          <br />
+          Argentina,
+          <br />
+          Juan José Castelli, Chaco <br />
+          <span>quinojuan@gmail.com</span>
+        </div>
+        <div className="map-wrap">
+          <MapContainer center={[-25.9453164,-60.6235763]} zoom={13}>
+          <TileLayer url='https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png' />
+          <Marker position={[-25.9453164,-60.6235763]}>
+            <Popup>Juan Quino lives here, come over for a cup of coffee!</Popup>
+          </Marker>
+          </MapContainer>
         </div>
       </div>
       <Loader type="pacman" />
