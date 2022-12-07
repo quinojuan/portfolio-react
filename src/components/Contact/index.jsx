@@ -4,6 +4,7 @@ import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
 import emailjs from '@emailjs/browser'
 import { MapContainer, Marker, Popup, TileLayer } from 'react-leaflet'
+import Swal from 'sweetalert2'
 
 const Contact = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -30,7 +31,11 @@ const Contact = () => {
       )
       .then(
         () => {
-          alert('Message successfully sent!')
+          Swal.fire(
+            'Good job!',
+            'Message succesfully sent!',
+            'success'
+          )
           window.location.reload(false)
         },
         () => {
