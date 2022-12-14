@@ -3,8 +3,9 @@ import { Link } from 'react-router-dom'
 import './index.scss'
 import { useEffect, useState } from 'react'
 import AnimatedLetters from '../AnimatedLetters'
-// import Logo from '../Logo'
+import Logo from '../Logo'
 import Loader from 'react-loaders'
+import foto from '../../assets/images/foto.png'
 
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -67,10 +68,12 @@ const Home = () => {
           </h1>
           <h2>...constantemente aprendiendo algo</h2>
           <Link to="/contact" className="flat-button">
-            CONTCTAME
+            CONTÁCTAME
           </Link>
         </div>
-        <div className='test'>Prueba</div>
+        <div className='foto'>
+          <img src={foto} alt="foto" />
+        </div>
       </div>
       <Loader type="pacman" />
     </>
