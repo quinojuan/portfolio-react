@@ -67,10 +67,10 @@ const Home = () => {
           </h1>
           <h2>...constantemente aprendiendo algo</h2>
           <Link to="/contact" className="flat-button">
-            CONTÁCTAME
+            CONTCTAME
           </Link>
         </div>
-        {/* <Logo /> */}
+        <div className='test'>Prueba</div>
       </div>
       <Loader type="pacman" />
     </>
