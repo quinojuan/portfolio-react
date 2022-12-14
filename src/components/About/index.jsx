@@ -31,24 +31,34 @@ const About = () => {
           <h1>
             <AnimatedLetters
               letterClass={letterClass}
-              strArray={['A', 'b', 'o', 'u', 't', ' ', 'm', 'e']}
+              strArray={[
+                'A',
+                'c',
+                'e',
+                'r',
+                'c',
+                'a',
+                ' ',
+                'd',
+                'e',
+                ' ',
+                'm',
+                'í',
+              ]}
               idx={15}
             />
           </h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            Necessitatibus, dignissimos officia labore officiis perferendis
-            atque laboriosam iure nulla alias nesciunt voluptatibus magni
-            obcaecati omnis, iste eos explicabo in! Adipisci, suscipit?
+            Soy una persona muy comprometida con mi profesión y con la gente que
+            me rodea. Soy un entusiasta de la tecnología, autodidacta por
+            naturaleza y siempre queriendo explicar de forma sencilla lo
+            difícil. Tengo un Background de Técnico en Computadoras y en Redes
+            con 20 años de experiencia que me permite entender bien las
+            necesidades del cliente final.
           </p>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            Necessitatibus, dignissimos officia labore officiis perferendis
-            atque
-          </p>
-          <p>
-            laboriosam iure nulla alias nesciunt voluptatibus magni obcaecati
-            omnis, iste eos explicabo in! Adipisci, suscipit?
+            🌿 Amante de las plantas, la naturaleza y disfrutar de la familia.
+            💑
           </p>
         </div>
 
@@ -75,7 +85,7 @@ const About = () => {
           </div>
         </div>
       </div>
-      <Loader type='pacman' />
+      <Loader type="pacman" />
     </>
   )
 }

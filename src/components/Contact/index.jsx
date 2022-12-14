@@ -31,11 +31,7 @@ const Contact = () => {
       )
       .then(
         () => {
-          Swal.fire(
-            'Good job!',
-            'Message succesfully sent!',
-            'success'
-          )
+          Swal.fire('Good job!', 'Message succesfully sent!', 'success')
           window.location.reload(false)
         },
         () => {
@@ -51,21 +47,20 @@ const Contact = () => {
           <h1>
             <AnimatedLetters
               letterClass={letterClass}
-              strArray={['C', 'o', 'n', 't', 'a', 'c', 't', ' ', 'm', 'e']}
+              strArray={['C', 'o', 'n', 't', 'á', 'c', 't', 'a', 'm', 'e']}
               idx={15}
             />
           </h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
-            praesentium alias molestiae doloremque sequi provident at esse fugit
-            quo aliquid voluptatum eum, a odio sunt placeat repudiandae, minus
-            beatae fugiat.
+            Estoy interesado en oportunidades tanto en relación de dependencia
+            como Freelance. Sin embargo, si tienes alguna consulta, no dudes en
+            contactarme utilizando el siguiente formulario.
           </p>
           <div className="contact-form">
             <form ref={refForm} onSubmit={sendEmail}>
               <ul>
                 <li className="half">
-                  <input type="text" name="name" placeholder="Name" required />
+                  <input type="text" name="name" placeholder="Nombre" required />
                 </li>
                 <li className="half">
                   <input
@@ -77,7 +72,7 @@ const Contact = () => {
                 </li>
                 <li>
                   <input
-                    placeholder="Subject"
+                    placeholder="Asunto"
                     type="text"
                     name="subject"
                     required
@@ -86,12 +81,12 @@ const Contact = () => {
                 <li>
                   <textarea
                     name="message"
-                    placeholder="Message"
+                    placeholder="Mensaje"
                     required
                   ></textarea>
                 </li>
                 <li>
-                  <input type="submit" className="flat-button" value="SEND" />
+                  <input type="submit" className="flat-button" value="ENVIAR" />
                 </li>
               </ul>
             </form>
@@ -106,11 +101,13 @@ const Contact = () => {
           <span>quinojuan@gmail.com</span>
         </div>
         <div className="map-wrap">
-          <MapContainer center={[-25.9453164,-60.6235763]} zoom={13}>
-          <TileLayer url='https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png' />
-          <Marker position={[-25.9453164,-60.6235763]}>
-            <Popup>Juan Quino lives here, come over for a cup of coffee!</Popup>
-          </Marker>
+          <MapContainer center={[-25.9453164, -60.6235763]} zoom={13}>
+            <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
+            <Marker position={[-25.9453164, -60.6235763]}>
+              <Popup>
+                Juan Quino lives here, come over for a cup of coffee!
+              </Popup>
+            </Marker>
           </MapContainer>
         </div>
       </div>
