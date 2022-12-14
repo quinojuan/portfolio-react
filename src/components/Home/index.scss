@@ -124,8 +124,7 @@
     }
 }
 
-.test {
-    border: solid white 1px;
-    height: 500px;
-    width: 500px;
+.foto {
+    display: flex;
+    justify-content: right;
 }
