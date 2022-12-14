@@ -65,9 +65,9 @@ const Home = () => {
               idx={16}
             />
           </h1>
-          <h2>...constantly learning something new</h2>
+          <h2>...constantemente aprendiendo algo</h2>
           <Link to="/contact" className="flat-button">
-            CONTACT ME
+            CONTÁCTAME
           </Link>
         </div>
         {/* <Logo /> */}
