@@ -44,7 +44,7 @@ const Home = () => {
 
   return (
     <>
-      <div className="cantainer home-page">
+      <div className="container home-page">
         <div className="text-zone">
           <h1>
             <span className={letterClass}>H</span>
@@ -70,9 +70,9 @@ const Home = () => {
           <Link to="/contact" className="flat-button">
             CONTÁCTAME
           </Link>
-        </div>
-        <div className='foto'>
+        {/* <div className='foto'>
           <img src={foto} alt="foto" />
+        </div> */}
         </div>
       </div>
       <Loader type="pacman" />
