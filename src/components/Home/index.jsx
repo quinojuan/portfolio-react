@@ -70,9 +70,9 @@ const Home = () => {
           <Link to="/contact" className="flat-button">
             CONTÁCTAME
           </Link>
-        {/* <div className='foto'>
+        </div>
+        <div className='foto'>
           <img src={foto} alt="foto" />
-        </div> */}
         </div>
       </div>
       <Loader type="pacman" />
