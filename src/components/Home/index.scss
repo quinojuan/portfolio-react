@@ -15,7 +15,7 @@
 
   h1 {
     color: #fff;
-    font-size: 65px; // size of principal letters
+    font-size: 53px; // size of principal letters
     margin: 0;
     font-family: 'Coolvetica';
     font-weight: 400;
@@ -133,5 +133,12 @@
       left: 0;
       margin: auto;
     }
+  }
+}
+
+@media screen and (min-width: 1900px) {
+  .foto img {
+    width: 600px;
+    margin-right: 300px;
   }
 }
