@@ -33,17 +33,13 @@ const About = () => {
               letterClass={letterClass}
               strArray={[
                 'A',
-                'c',
-                'e',
-                'r',
-                'c',
-                'a',
-                ' ',
-                'd',
-                'e',
+                'b',
+                'o',
+                'u',
+                't',
                 ' ',
                 'm',
-                'í',
+                'e'
               ]}
               idx={15}
             />

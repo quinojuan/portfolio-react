@@ -47,7 +47,7 @@ const Contact = () => {
           <h1>
             <AnimatedLetters
               letterClass={letterClass}
-              strArray={['C', 'o', 'n', 't', 'á', 'c', 't', 'a', 'm', 'e']}
+              strArray={['C', 'o', 'n', 't', 'a', 'c', 't', ' ', 'm', 'e']}
               idx={15}
             />
           </h1>
@@ -60,7 +60,7 @@ const Contact = () => {
             <form ref={refForm} onSubmit={sendEmail}>
               <ul>
                 <li className="half">
-                  <input type="text" name="name" placeholder="Nombre" required />
+                  <input type="text" name="name" placeholder="Name" required />
                 </li>
                 <li className="half">
                   <input
@@ -72,7 +72,7 @@ const Contact = () => {
                 </li>
                 <li>
                   <input
-                    placeholder="Asunto"
+                    placeholder="Subject"
                     type="text"
                     name="subject"
                     required
@@ -81,12 +81,12 @@ const Contact = () => {
                 <li>
                   <textarea
                     name="message"
-                    placeholder="Mensaje"
+                    placeholder="Message"
                     required
                   ></textarea>
                 </li>
                 <li>
-                  <input type="submit" className="flat-button" value="ENVIAR" />
+                  <input type="submit" className="flat-button" value="SEND" />
                 </li>
               </ul>
             </form>
