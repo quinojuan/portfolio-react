@@ -1,16 +1,10 @@
 {
     "portfolio": [
         {
-            "cover": "/portfolio/1/one.jpg",
-            "title": "GGWP",
-            "description": "React, JSX, Tailwind, Jest",
-            "url": "https://google.com"
-        },
-        {
-            "cover": "/portfolio/1/two.jpg",
-            "title": "Rose",
-            "description": "React, JSX, Tailwind, Jest",
-            "url": "https://jw.org"
+            "cover": "/portfolio/1/Countries.png",
+            "title": "COUNTRIES",
+            "description": "React, Redux, JSX, CSS, PostgreSQL",
+            "url": "https://countries-client-quino.onrender.com/"
         }
     ]
 }
