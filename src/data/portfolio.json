@@ -5,6 +5,12 @@
             "title": "COUNTRIES",
             "description": "React, Redux, JSX, CSS, PostgreSQL",
             "url": "https://countries-client-quino.onrender.com/"
+        },
+        {
+            "cover": "/portfolio/2/mstechla.png",
+            "title": "MSTECH",
+            "description": "Wordpress, HTML, CSS",
+            "url": "https://mstech.la/"
         }
     ]
 }
