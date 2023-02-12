@@ -10,7 +10,13 @@
             "cover": "/portfolio/2/mstechla.png",
             "title": "MSTECH",
             "description": "Wordpress, HTML, CSS",
-            "url": "https://mstech.la/"
+            "url": "https://barcodesignstudio.com/mstech/"
+        },
+        {
+            "cover": "/portfolio/3/localpayment.png",
+            "title": "Localpayment",
+            "description": "Wordpress, HTML, CSS (formularios)",
+            "url": "https://barcodesignstudio.com/localpayment/"
         }
     ]
 }
