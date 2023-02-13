@@ -17,6 +17,12 @@
             "title": "Localpayment",
             "description": "Wordpress, HTML, CSS (formularios)",
             "url": "https://barcodesignstudio.com/localpayment/"
+        },
+        {
+            "cover": "/portfolio/4/movilgates.png",
+            "title": "Movilgates",
+            "description": "React, Redux, Express, CSS, PostgreSQL, eMailJS, Firebase",
+            "url": "https://barcodesignstudio.com/localpayment/"
         }
     ]
 }
