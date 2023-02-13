@@ -22,7 +22,7 @@
             "cover": "/portfolio/4/movilgates.png",
             "title": "Movilgates",
             "description": "React, Redux, Express, CSS, PostgreSQL, eMailJS, Firebase",
-            "url": "https://barcodesignstudio.com/localpayment/"
+            "url": "https://movilgates.netlify.app/home"
         }
     ]
 }
