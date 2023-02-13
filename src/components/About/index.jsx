@@ -45,12 +45,8 @@ const About = () => {
             />
           </h1>
           <p>
-            Soy una persona muy comprometida con mi profesión y con la gente que
-            me rodea. Soy un entusiasta de la tecnología, autodidacta por
-            naturaleza y siempre queriendo explicar de forma sencilla lo
-            difícil. Tengo un Background de Técnico en Computadoras y en Redes
-            con 20 años de experiencia que me permite entender bien las
-            necesidades del cliente final.
+            Soy un desarrollador Fullstack Developer con enfoque en Backend. Me destaco por ser una persona entusiasta, muy comprometida con mi profesión y con la gente que
+            me rodea. Autodidacta por naturaleza y siempre queriendo explicar de forma sencilla lo difícil. También tengo un Background de Técnico en Computadoras y en Redes con 20 años de experiencia lo que apoya mi interés en el ámbito Tech.
           </p>
           <p>
             🌿 Amante de las plantas, la naturaleza y disfrutar de la familia.
