@@ -23,6 +23,12 @@
             "title": "Movilgates",
             "description": "React, Redux, Express, CSS, PostgreSQL, eMailJS, Firebase",
             "url": "https://movilgates.netlify.app/home"
+        },
+        {
+            "cover": "/portfolio/5/compraVenta.jpeg",
+            "title": "Venta de Art.",
+            "description": "React, HTML, CSS, axios",
+            "url": "https://recupero-castelli.vercel.app/"
         }
     ]
 }
