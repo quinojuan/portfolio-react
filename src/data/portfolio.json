@@ -35,6 +35,12 @@
             "title": "Grupo VIA",
             "description": "Wordpress, HTML, CSS",
             "url": "https://barcodesignstudio.com/grupovia/"
+        },
+        {
+            "cover": "/portfolio/7/aloha.jpg",
+            "title": "ALOHA",
+            "description": "NodeJS, Express, React, EmailJS",
+            "url": "https://ropasaloha.vercel.app/"
         }
     ]
 }
