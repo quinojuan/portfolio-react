@@ -1,40 +1,40 @@
 {
     "portfolio": [
         {
-            "cover": "/portfolio/1/Countries.png",
-            "title": "COUNTRIES",
-            "description": "React, Redux, JSX, CSS, PostgreSQL",
-            "url": "https://countries-client-quino.onrender.com/"
-        },
-        {
-            "cover": "/portfolio/2/mstechla.png",
-            "title": "MSTECH",
+            "cover": "/portfolio/grupovia.png",
+            "title": "Grupo VIA",
             "description": "Wordpress, HTML, CSS",
-            "url": "https://barcodesignstudio.com/mstech/"
+            "url": "https://barcodesignstudio.com/grupovia/"
         },
         {
-            "cover": "/portfolio/3/localpayment.png",
+            "cover": "/portfolio/localpayment.png",
             "title": "Localpayment",
             "description": "Wordpress, HTML, CSS (formularios)",
             "url": "https://barcodesignstudio.com/localpayment/"
         },
         {
-            "cover": "/portfolio/4/movilgates.png",
-            "title": "Movilgates",
-            "description": "React, Redux, Express, CSS, PostgreSQL, eMailJS, Firebase",
-            "url": "https://movilgates.netlify.app/home"
+            "cover": "/portfolio/mstechla.png",
+            "title": "MSTECH",
+            "description": "Wordpress, HTML, CSS",
+            "url": "https://barcodesignstudio.com/mstech/"
         },
         {
-            "cover": "/portfolio/5/compraVenta.jpeg",
+            "cover": "/portfolio/elgalpon.png",
+            "title": "EL GALPON DE LAS OFERTAS",
+            "description": "NodeJS, Express, React, EmailJS",
+            "url": "https://ropasaloha.vercel.app/"
+        },
+        {
+            "cover": "/portfolio/compraVenta.jpeg",
             "title": "Venta de Art.",
             "description": "React, HTML, CSS, axios",
             "url": "https://recupero-castelli.vercel.app/"
         },
         {
-            "cover": "/portfolio/6/grupovia.jpg",
-            "title": "Grupo VIA",
-            "description": "Wordpress, HTML, CSS",
-            "url": "https://barcodesignstudio.com/grupovia/"
+            "cover": "/portfolio/todo-list.png",
+            "title": "To Do List",
+            "description": "HTML, CSS, Javascript",
+            "url": "https://todo-quino.vercel.app/"
         }
     ]
 }
