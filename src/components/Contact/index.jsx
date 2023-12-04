@@ -24,7 +24,7 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        'service_0l541pm',
+        'service_9dnr50i',
         'template_pjno36a',
         refForm.current,
         'OqLPBjtMYfx4yul-S'
@@ -32,7 +32,9 @@ const Contact = () => {
       .then(
         () => {
           Swal.fire('Good job!', 'Message succesfully sent!', 'success')
-          window.location.reload(false)
+          setTimeout(() => {
+            window.location.reload(false)
+          }, 2000)
         },
         () => {
           alert('Failed to send the message, please try again!')
