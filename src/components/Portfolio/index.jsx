@@ -30,19 +30,19 @@ const Portfolio = () => {
     return (
       <div className="images-container">
         {
-          portfolio.map((port, idx) => {
+          portfolio.map(({ cover, title, description, url }, idx) => {
             return (
               <div className="image-box" key={idx}>
                 <img 
-                  src={port.cover} 
+                  src={cover} 
                   className="portfolio-image"
                   alt="portfolio" />
                   <div className="content">
-                    <p className="title">{port.title}</p>
-                    <h4 className='description'>{port.description}</h4>
+                    <p className="title">{title}</p>
+                    <h4 className='description'>{description}</h4>
                     <button
                     className="btn"
-                    onClick={() => window.open(port.url)}
+                    onClick={() => window.open(url)}
                     >View</button>
                   </div>
               </div>

@@ -35,6 +35,12 @@
             "title": "To Do List",
             "description": "HTML, CSS, Javascript",
             "url": "https://todo-quino.vercel.app/"
+        },
+        {
+            "cover": "/portfolio/quizapp.png",
+            "title": "Quiz-App",
+            "description": "HTML, CSS, Javascript",
+            "url": "https://quino-quiz-app.vercel.app/"
         }
     ]
 }
