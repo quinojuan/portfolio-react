@@ -41,6 +41,12 @@
             "title": "Quiz-App",
             "description": "HTML, CSS, Javascript",
             "url": "https://quino-quiz-app.vercel.app/"
+        },
+        {
+            "cover": "/portfolio/ageCalculator.png",
+            "title": "Age Calculator",
+            "description": "HTML, CSS, Javascript",
+            "url": "https://quino-age-calculator.vercel.app/"
         }
     ]
 }
