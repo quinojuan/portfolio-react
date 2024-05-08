@@ -1,52 +1,34 @@
 {
-    "portfolio": [
-        {
-            "cover": "/portfolio/grupovia.png",
-            "title": "Grupo VIA",
-            "description": "Wordpress, HTML, CSS",
-            "url": "https://barcodesignstudio.com/grupovia/"
-        },
-        {
-            "cover": "/portfolio/localpayment.png",
-            "title": "Localpayment",
-            "description": "Wordpress, HTML, CSS (formularios)",
-            "url": "https://barcodesignstudio.com/localpayment/"
-        },
-        {
-            "cover": "/portfolio/mstechla.png",
-            "title": "MSTECH",
-            "description": "Wordpress, HTML, CSS",
-            "url": "https://barcodesignstudio.com/mstech/"
-        },
-        {
-            "cover": "/portfolio/elgalpon.png",
-            "title": "EL GALPON DE LAS OFERTAS",
-            "description": "NodeJS, Express, React, EmailJS",
-            "url": "https://ropasaloha.vercel.app/"
-        },
-        {
-            "cover": "/portfolio/compraVenta.jpeg",
-            "title": "Venta de Art.",
-            "description": "React, HTML, CSS, axios",
-            "url": "https://recupero-castelli.vercel.app/"
-        },
-        {
-            "cover": "/portfolio/todo-list.png",
-            "title": "To Do List",
-            "description": "HTML, CSS, Javascript",
-            "url": "https://todo-quino.vercel.app/"
-        },
-        {
-            "cover": "/portfolio/quizapp.png",
-            "title": "Quiz-App",
-            "description": "HTML, CSS, Javascript",
-            "url": "https://quino-quiz-app.vercel.app/"
-        },
-        {
-            "cover": "/portfolio/ageCalculator.png",
-            "title": "Age Calculator",
-            "description": "HTML, CSS, Javascript",
-            "url": "https://quino-age-calculator.vercel.app/"
-        }
-    ]
+  "portfolio": [
+    {
+      "cover": "/portfolio/grupovia.png",
+      "title": "Grupo VIA",
+      "description": "Wordpress, HTML, CSS",
+      "url": "https://barcodesignstudio.com/grupovia/"
+    },
+    {
+      "cover": "/portfolio/localpayment.png",
+      "title": "Localpayment",
+      "description": "Wordpress, HTML, CSS (formularios)",
+      "url": "https://barcodesignstudio.com/localpayment/"
+    },
+    {
+      "cover": "/portfolio/mstechla.png",
+      "title": "MSTECH",
+      "description": "Wordpress, HTML, CSS",
+      "url": "https://barcodesignstudio.com/mstech/"
+    },
+    {
+      "cover": "/portfolio/elgalpon.png",
+      "title": "EL GALPON DE LAS OFERTAS",
+      "description": "NodeJS, Express, React, EmailJS",
+      "url": "https://ropasaloha.vercel.app/"
+    },
+    {
+      "cover": "/portfolio/compraVenta.jpeg",
+      "title": "Venta de Art.",
+      "description": "React, HTML, CSS, axios",
+      "url": "https://recupero-castelli.vercel.app/"
+    }
+  ]
 }
